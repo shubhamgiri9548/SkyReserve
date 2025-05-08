@@ -1,0 +1,65 @@
+🔐 1. Password Reset (Forgot/Reset Password)   -- ✔️
+Implement email-based password reset using JWT + nodemailer.
+
+Flow:
+
+User requests password reset → system sends email with secure token link.
+
+User clicks link → inputs new password → updates in DB.
+
+💳 2. Payment Integration                     -- ✔️
+Integrate Razorpay or Stripe.
+
+Flow:
+
+Before booking is confirmed → user makes payment → payment status is saved.
+
+Add a paymentStatus field to Booking model.
+
+Add webhook handling to update status based on payment success/failure.
+
+📄 3. Invoice / Ticket PDF Generation                     -- ✔️
+Use pdfkit or puppeteer to generate booking invoices/tickets as PDFs.
+
+Provide download/email functionality after booking is confirmed.
+
+✈️ 4. Flight Seat Management
+Add seat selection support.
+
+Update flight model to store available seats.
+
+On booking: assign and lock selected seat.
+
+📊 5. Admin Dashboard APIs                             -- ✔️
+Aggregate data for:
+
+Total users, bookings, revenue.
+
+Flight occupancy rates.
+
+Prepare for future frontend dashboard display.
+
+🌐 6. Search and Filter Flights
+Add flexible search via query parameters:
+
+?origin=Delhi&destination=Mumbai&date=2025-05-10
+
+Improve UX with sorting and pagination.
+
+🔒 7. Two-Factor Authentication (2FA)                        -- ✔️
+Implement OTP-based login with email or SMS (using Twilio or nodemailer).
+
+🕒 8. Flight Schedule Automation
+Add cron jobs to automatically:
+
+Archive past flights.
+
+Notify users about upcoming flights.
+
+🧾 9. Booking Cancellation Policies
+Add logic to handle refund eligibility based on timing.
+
+Define rules like: "No refund if canceled within 24 hours of departure."
+
+⚠️ 10. Rate Limiting / IP Blocking
+Add API rate limits using express-rate-limit to prevent abuse.

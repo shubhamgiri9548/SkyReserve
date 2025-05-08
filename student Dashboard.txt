@@ -1,0 +1,42 @@
+✅ What Your Dashboard Should Include (Based on Your Schema):
+Main Sections for User Dashboard
+Welcome/Header Section
+
+User name
+
+Wallet balance
+
+Logout button
+
+My Bookings
+
+List of flights the user has booked:
+
+Flight Number
+
+From → To
+
+Departure & Arrival
+
+Seats booked
+
+Booking status (confirmed/cancelled)
+
+Payment status
+
+Invoice link if available
+
+Wallet Section
+
+Current balance
+
+Add money button (future)
+
+Transaction history (optional/future)
+
+Profile Settings (optional, can add later)
+
+View & edit email/password
+
+Security options
+
