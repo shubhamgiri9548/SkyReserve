@@ -4,8 +4,8 @@
   "description": "this is the project for complete airplane booking system",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+      "build": "echo 'No build step required'",
+      "start": "node index.js"
   },
   "author": "shubham giri",
   "license": "ISC",
