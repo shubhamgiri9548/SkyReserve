@@ -16,9 +16,13 @@ const adminRoutes  = require('./routes/adminRoutes');
 
 // Initialize app
 const app = express();
+ 
+app.use(cors({
+  origin: process.env.FRONTEND_URL,
+  credentials: true,
+}));
 
 // Middleware
-app.use(cors());
 app.use(express.json());
 
 
@@ -36,10 +40,6 @@ const db = require('./config/db');
 db.connect();
 
 
-app.use(cors({
-  origin: process.env.FRONTEND_URL,
-  credentials: true,
-}));
 
 
 // Start server
