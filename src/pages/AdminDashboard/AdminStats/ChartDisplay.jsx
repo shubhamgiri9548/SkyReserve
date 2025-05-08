@@ -1,9 +1,15 @@
 
 // ChartDisplay.jsx
 import React from "react";
-import { Pie } from "react-chartjs-2";
+import { Pie  , Line} from "react-chartjs-2";
 import { Chart, ArcElement } from "chart.js";
-Chart.register(ArcElement);
+import { 
+  LinearScale,
+  CategoryScale,
+  PointElement,
+  LineElement
+} from 'chart.js';
+Chart.register(ArcElement, LinearScale, CategoryScale, PointElement, LineElement  );
 
 const ChartDisplay = ({ currChart, stats }) => {
   const generateRandomColors = (num) => {
