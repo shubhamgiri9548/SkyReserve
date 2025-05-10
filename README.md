@@ -91,6 +91,5 @@ JWT Authentication
 
 📬 Contact
 Made with 💙 by Shubham Giri
-🔗 LinkedIn
 📧 ankushgiri2007@gmail.com
 
