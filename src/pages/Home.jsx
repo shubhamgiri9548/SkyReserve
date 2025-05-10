@@ -63,8 +63,8 @@ const Home = () => {
             alt="Seat Selection"
             className="w-16 h-16 mx-auto mb-4"
           />
-          <h3 className="font-semibold text-xl mb-2">Seat Selection</h3>
-          <p className="text-gray-600">Choose your preferred seat easily.</p>
+          <h3 className="font-semibold text-xl mb-2">Refund Policy</h3>
+          <p className="text-gray-600">You will get a full refund if you cancel your flight within 24 hours of booking.</p>
         </div>
         <div className="p-6 shadow-md rounded-lg bg-blue-100">
           <img
