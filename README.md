@@ -27,9 +27,7 @@ Payment Integration (e.g., Razorpay or Stripe)
 
 JWT Authentication
 
-Cloudinary (for any image storage if used)
----
-
+--
 
 ![Homepage Screenshot](screenshots/HomePage.png)
 
@@ -91,6 +89,8 @@ Cloudinary (for any image storage if used)
 | `GET`  | /api/v1/invoice/:bookingId | Generate PDF invoice |
 | `GET`  | /api/v1/admin/stats | Admin dashboard stats |
 
-✍️ Author
-Shubham Giri
+📬 Contact
+Made with 💙 by Shubham Giri
+🔗 LinkedIn
+📧 ankushgiri2007@gmail.com
 
