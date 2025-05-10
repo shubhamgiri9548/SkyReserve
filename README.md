@@ -1,40 +1,43 @@
-# ✈️ Airplane Booking System - Backend
+✈️ Sky Reserve – Flight Booking Web App
+Sky Reserve is a full-stack flight booking platform where users can search for flights, make bookings, and pay securely. Admins can manage flights and monitor bookings. The application is built using the MERN stack with integrated OTP login, secure payments, and invoice generation.
 
-A full-featured backend for a flight booking system built with **Node.js**, **Express**, **MongoDB**, and **Razorpay**. Includes payment processing, invoice generation, OTP-based 2FA, and admin analytics.
+🚀 Live: https://sky-reserve-6th9.vercel.app
 
----
-
-## 🔧 Tech Stack
-
-- **Backend Framework**: Node.js + Express.js
-- **Database**: MongoDB + Mongoose
-- **Authentication**: JWT + OTP-based 2FA (via Nodemailer)
-- **Payments**: Razorpay Integration
-- **PDF Generation**: PDFKit
-- **Environment Variables**: dotenv
-- **Email Service**: Nodemailer
 
 ---
 
-## 📁 Folder Structure
-.
-├── config/
-│   └── db.js
-├── controllers/
-├── middleware/
-├── models/
-├── routes/
-│   ├── authRoutes.js
-│   ├── flightRoutes.js
-│   ├── bookingRoutes.js
-│   ├── paymentRoutes.js
-│   ├── invoiceRoute.js
-│   └── adminRoutes.js
-├── utils/
-├── index.js
-└── .env
+🛠 Tech Stack
+Frontend
+React.js
 
+Redux Toolkit (state management)
+
+Tailwind CSS
+
+Axios
+
+Backend
+Node.js + Express.js
+
+MongoDB + Mongoose
+
+Nodemailer (email-based OTP)
+
+Payment Integration (e.g., Razorpay or Stripe)
+
+JWT Authentication
+
+Cloudinary (for any image storage if used)
 ---
+
+
+![Homepage Screenshot](screenshots/HomePage.png)
+
+![Booking Screenshot](screenshots/BookingPage.png)
+
+![Login Screenshot](screenshots/LoginPage.png)
+
+![Dashboard Screenshot](screenshots/AdminDashboard.png)
 
 ## ⚙️ Features
 
